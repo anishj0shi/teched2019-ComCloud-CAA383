@@ -94,7 +94,7 @@ After that scroll back up and select `Create` to create/save the serverless func
 
 The last step is to bind the function to the previously created [Google Cloud Storage Bucket](#create-service-instance-of-google-cloud-storage). As this requires additional parameters to be configured, this cannot be done from within the Lambda screen and instead needs to be done on the "Instances Screen".
 
-![GCS Storage Binding](../assets/GCSSTorageBinding1.png)
+![GCS Storage Binding](../assets/GCSStorageBinding1.png)
 
 | Name          | Value         | Comment |
 | ------------- | ------------- | ------- |
@@ -103,15 +103,15 @@ The last step is to bind the function to the previously created [Google Cloud St
 | Roles | roles/storage.admin | this describes the permissions gratend to the newly created service account ("application" user) |
 Name | sapteched-2019-caa383-{workplace-id}@{project-id}.iam.gserviceaccount.com | name that will be assigned to the service account, project-id will be provided by your instructor during the session |
 
-![GCS Storage Binding 2](../assets/GCSSTorageBinding2.png)
+![GCS Storage Binding 2](../assets/GCSStorageBinding2.png)
 
 After selecting `Bind Application` the binding will be in "FAILED" state for some time. This is normal and due to the fact that work is happening behind the scenes. The status is "FAILED" until everything is done (takes up to 5 Minutes).
 
-![GCS Storage Binding 3](../assets/GCSSTorageBinding3.png)
+![GCS Storage Binding 3](../assets/GCSStorageBinding3.png)
 
 After some time it will switch to "READY" state and the Lambda Function is ready to be tested.
 
-![GCS Storage Binding 4](../assets/GCSSTorageBinding4.png)
+![GCS Storage Binding 4](../assets/GCSStorageBinding4.png)
 
 ## Test Lambda Function to store SAP Commerce Cloud Order
 
