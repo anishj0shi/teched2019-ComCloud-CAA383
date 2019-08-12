@@ -16,11 +16,11 @@ To install Varkes, first go to [XF Application Mocks](https://github.com/SAP/xf-
 
 ![Install Varkes](../assets/InstallVarkes1.png)
 
-Open Kyma Console and from `Select Namespace` section click on `Create New Namespace`. Fill the name field (`varkes` name is used in this sample) and create a Namespace:
+Open Kyma Console and from `Select Namespace` section, click on `Create New Namespace`. Fill the name field and create a Namespace:
 
 ![Install Varkes](../assets/InstallVarkes2.png)
 
-Go to the Namespace and click on `Deploy new resource`. Choose the `xf.yaml` you downloaded earlier and click on `Upload`, so Varkes will be deployed.
+Go to the Namespace and click on `Deploy new resource`. Choose `xf.yaml` file location you downloaded earlier and click on `Upload`, so Varkes will be deployed.
 
 ![Install Varkes](../assets/InstallVarkes3.png)
 
@@ -52,10 +52,9 @@ Now the status should be `Connected`. Click on `Register` for `SAP Commerce Clou
 
 ![Install Varkes](../assets/InstallVarkes11.png)
 
-Go back to the `Applications` page. Status of `varkes` should be `Serving` now:
+Go back to the `Applications` page on Kyma. Status of `varkes` should be `Serving` now:
 
 ![Install Varkes](../assets/InstallVarkes12.png)
-
 
 ## Create Instance of SAP Commerce Cloud API and Event
 
