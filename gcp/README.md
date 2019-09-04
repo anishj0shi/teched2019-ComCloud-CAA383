@@ -44,9 +44,10 @@ In the configuration dialog, add the following values and click `Create Instance
 
 | Name          | Value         | Comment |
 | ------------- | ------------- | ------- |
-| Bucket ID     | sapteched-2019-caa383-{location}-{workplace-id} | Must be globally unique accross Google Cloud.
-| Location      | europe-west4  | Physical location of your data | 
-| Default storage class | REGIONAL     | Storage type to be selected, as our cluster is regional, we do not require multi-regfion storage |
+| Plan          | regional      | Storage will only be in one GCP region (like the cluster itself)|
+| Force Delete  | true | when deleting contents will be erased |
+| Name     | sapteched_2019_caa383_{location}_{workplace-id} | Must be globally unique accross Google Cloud. |
+| Location      | europe-west1 | Physical location of your data | 
 
 ![GCP Storage Instance](../assets/InstanceCreateGCP2.png)
 
@@ -88,30 +89,15 @@ Now you create the binding to the previously created [SAP Commerce Cloud Web Ser
 
 ![Lambda 6](../assets/Lambda6.png)
 
+After that create the binding to the previously created [Google Cloud Storage instance](#create-service-instance-of-google-cloud-storage). Select the `google-storages-{random name}` instance from the dropdown and then select `Create Service Binding`.
+
+![GCS Storage Binding](../assets/GCSStorageBinding1.png)
+
 After that scroll back up and select `Create` to create/save the serverless function:
 
 ![Lambda 7](../assets/Lambda7.png)
 
-The last step is to bind the function to the previously created [Google Cloud Storage Bucket](#create-service-instance-of-google-cloud-storage). As this requires additional parameters to be configured, this cannot be done from within the Lambda screen and instead needs to be done on the "Instances Screen".
-
-![GCS Storage Binding](../assets/GCSStorageBinding1.png)
-
-| Name          | Value         | Comment |
-| ------------- | ------------- | ------- |
-| Select Application   | strore-order-gcs | This is the Lambda Function we just created, refresh if this is not part of the dropdown  |
-| Create Credentials | checked | a new "application" credential is created |
-| Roles | roles/storage.admin | this describes the permissions gratend to the newly created service account ("application" user) |
-Name | sapteched-2019-caa383-{workplace-id}@{project-id}.iam.gserviceaccount.com | name that will be assigned to the service account, project-id will be provided by your instructor during the session |
-
-![GCS Storage Binding 2](../assets/GCSStorageBinding2.png)
-
-After selecting `Bind Application` the binding will be in "FAILED" state for some time. This is normal and due to the fact that work is happening behind the scenes. The status is "FAILED" until everything is done (takes up to 5 Minutes).
-
-![GCS Storage Binding 3](../assets/GCSStorageBinding3.png)
-
-After some time it will switch to "READY" state and the Lambda Function is ready to be tested.
-
-![GCS Storage Binding 4](../assets/GCSStorageBinding4.png)
+After some time the Lambda Function is ready to be tested.
 
 ## Test Lambda Function to store SAP Commerce Cloud Order
 
@@ -165,9 +151,9 @@ To make the required dependency available, first enable dependencies in the Lamb
 
 ![Lambda 11](../assets/Lambda11.png)
 
-Now you can re-use the service binding credential created previously for storing the order. Select `Create Service Binding`. Disable `Create new secret for the binding`. Select the existing Service Instance for Google Cloud Storage and select the previously created secret from the `Secrets` dropdown. Press `Create Service Binding`.
+After that create the binding to the previously created [Google Cloud Storage instance](#create-service-instance-of-google-cloud-storage). Select the `google-storages-{random name}` instance from the dropdown and then select `Create Service Binding`.
 
-![Lambda 12](../assets/Lambda12.png)
+![GCS Storage Binding](../assets/GCSStorageBinding1.png)
 
 Now you can scroll up and create the Lambda Function. 
 

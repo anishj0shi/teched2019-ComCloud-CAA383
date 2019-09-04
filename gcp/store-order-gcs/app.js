@@ -7,18 +7,21 @@ const axios = require('axios');
 const { Storage } = require('@google-cloud/storage');
 
 
-//setuop through binding
+//setup through binding
+//decode base64 to string
+var privateKeyString = Buffer.from(process.env.PrivateKeyData, 'base64').toString('ascii')
+
 //Parse Service account key -> credential
-const privateKey = JSON.parse(process.env.privateKeyData);
+const privateKey = JSON.parse(privateKeyString);
 
 //innitialize connection to gcs
 const storage = new Storage({
-    projectId: process.env.projectId,
+    projectId: process.env.ProjectId,
     credentials: privateKey
 });
 
 //get access to bucket
-const myBucket = storage.bucket(process.env.bucketId);
+const myBucket = storage.bucket(process.env.bucket_name);
 
 
 /* Begin actual lambda function
