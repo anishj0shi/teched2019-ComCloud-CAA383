@@ -7,7 +7,7 @@ This hands-on session focuses on a "integrate with SAP Cloud Platform" scenario 
 In this example, we are creating first an Lambda function to store order information in a file storage on Google Cloud Platform. In the second step we will migrate the function to store the information on Azure blob storage. As we are running on Kubernetes, it is not required to do any changes on Kyma it self. We can even use the same kyma instance, to address a storage solution on another cloud provider.
 
 1. [Setup and connect Varkes](varkes/README.md)
-2. Install Google Service Broker
+2. [Install Google Service Broker](gcpbroker/README.md)
 3. [Store Commerce Order on Google Cloud Storage](gcp/README.md)
 4. Setup Azure Service Broker
 5. [Migrate Store Commerce Order to Microsoft Azure Storage](azure/README.md)
