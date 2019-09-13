@@ -1,14 +1,27 @@
 ## Provision Open Connectors in SAP Cloud Platform Extension Factory - Kyma runtime
 
 ### Pre-requisites
+
 - Running Kyma runtime (1.4.1+)
 - You should have provisioned SAP Cloud Platform Open Connectors, as described [here](../open&#32;connector/README.md)
 
 > Tip: Keep Organisation Secret and User Secret obtained via Open Connectors handy.
 
-As a part of our commercial offering, we deliver a `preview` package to bring out the capabilities of SAP Cloud Platform Open Connectors to kyma runtime. To provision this connector execute the following steps:
+### Install Preview Bundle
 
-Log in to Kyma console and then navigate inside any *namespace*.
+First we need to install the preview bundle for open connector. Navigate to the Kyma start page by clicking on the Kyma logo on top of the console.
+
+TODO: Image
+
+Now navigate to *Cluster Addons* and expand *addons-repos-url*. We need to reference the staging bundle repository by removing the existing URL and adding a new one: `https://storage.googleapis.com/faros-stage-base-xf-bundles/index.yaml`
+
+TODO: Image
+
+
+
+### Setup Open Connector Connection
+
+Now we can start to setup the connection to SAP Cloud Platform Open Connectors. In the *Namespaces* section navigate inside any *namespace*.
 
 ![Kyma OC1](assets/Kyma&#32;OC&#32;1.png)
 
@@ -31,6 +44,9 @@ Give a name to your service-instance and then click on *Create Instance*
 Once created, lets check whether the instance is avail
 
 ![Kyma OC1](assets/Kyma&#32;OC&#32;6.png)
+
+TODO: Add Credentials
+
 
 ![Kyma OC1](assets/Kyma&#32;OC&#32;7.png)
 

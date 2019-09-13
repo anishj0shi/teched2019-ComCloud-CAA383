@@ -1,9 +1,11 @@
 # Setup Twitter Integration with SAP Cloud Platform - Open Connectors
 
 ## About [SAP Cloud Platform - Open Connectors](https://blogs.sap.com/2018/06/05/announcing-sap-cloud-platform-open-connectors/)
+
 *SAP Cloud Platform(SCP) - Open Connectors* is a service offering from SCP which helps our customers seamlessly integrate and connect third party  applications by providing feature rich, pre-built connectors to over 150 non-SAP and SAP cloud or on-premise application.
 
-## Setup 
+## Setup
+
 To setup SAP Cloud Platform Open Connectors, first you need to create a trial account on SAP Cloud Platform, visit **https://cloudplatform.sap.com**
 
 ![SAP Cloud Platform Landing Page](../assets/SetupOpenConnector1.png)

@@ -14,7 +14,7 @@ In this example, we are creating first an Lambda function to store order informa
 
 Kyma is abstracting to some degree the cloud providers. Creating and cosuming (3rd party) services, running functions and deploying microservices are working the same way no matter which cloud provider is hosting the kyma system. This example should demonstrate, which components are still cloud provider specific and how to adjust them.
 
-## Bonus Track
+<!-- ## Bonus Track
 
 If everything was working smooth, there is some time left for a bonus track. In this part, we will connect the SAP Cloud Platform Open Connector to Kyma and use it to tweet about our latest orders.
 
@@ -24,7 +24,7 @@ This part requires a valid twitter account.
 2. [Install Open Connector Kyma Connector](install-open-connector/README.md)
 3. Create Lambde to tweet about searches
 
-As this example is not using any cloud provider services, the example can be easily transfered from one kyma installation to the next. No adjustments on code level are required.
+As this example is not using any cloud provider services, the example can be easily transfered from one kyma installation to the next. No adjustments on code level are required. -->
 
 ## Resources
 
