@@ -1,4 +1,4 @@
-# Google Cloud Platform Service Broker - Configuration
+# Azure Service Broker - Configuration
 
 ## About
 In this part of the session you are going to setup a service broker configuration to [Microsoft Azure](https://github.com/Azure/open-service-broker-azure/blob/master/README.md).  This will provide the resources within the namespace access to various services available on Azure, for example blob storage which we will be using in a later exercise.  
