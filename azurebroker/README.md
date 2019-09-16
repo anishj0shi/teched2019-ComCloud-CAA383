@@ -10,7 +10,7 @@ Within the context of your namespace choose the Oveview menu option and then cho
 
 ![Deploy Resource](../assets/GCPBroker3.png)
 
-The Azure Secret details will need to be populated by your instructor before you can use it. Download the secret.yaml. You have to replace the placeholder in the file. Important: project-name and sa-key need to be base64 encoded (https://www.base64encode.org/). Then upload the secret to your instance by choosing the Select button and navigating to where you have it saved. Choose the Upload button when complete.
+The Azure Secret details will need to be populated by your instructor before you can use it. Download the [secret.yaml](secret.yaml). You have to replace the placeholder in the file. Important: project-name and sa-key need to be base64 encoded (https://www.base64encode.org/). Then upload the secret to your instance by choosing the Select button and navigating to where you have it saved. Choose the Upload button when complete.
 
 ![Secret Upload](../assets/GCPBroker4.png)
 
