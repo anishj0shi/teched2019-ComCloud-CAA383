@@ -1,16 +1,16 @@
 # Installing Varkes
 
-To install Varkes, first go to [XF Application Mocks](https://github.com/SAP/xf-application-mocks) and download `xf.yaml` under the path `xf-application-mocks/commerce-mock/deployment`:
-
-![Install Varkes](../assets/InstallVarkes1.png)
-
-Open Kyma Console and from `Select Namespace` section, click on `Create New Namespace`. Fill the name field and create a Namespace:
+To install Varkes, first open the Kyma Console and from `Select Namespace` section, click on `Create New Namespace`. Fill the name field and create a Namespace:
 
 ![Install Varkes](../assets/InstallVarkes2.png)
 
-Go to the Namespace and click on `Deploy new resource`. Choose `xf.yaml` file location you downloaded earlier and click on `Upload`, so Varkes will be deployed.
+Go to the Namespace and click on `Catalog` under `Service Management`. Click on `[Preview] SAP Commerce Cloud - Mock`:
 
 ![Install Varkes](../assets/InstallVarkes3.png)
+
+Click on `Add once` to install the mock to your namespace:
+
+![Install Varkes](../assets/InstallVarkes35.png)
 
 Go to Kyma homepage and choose `Applications`. Click on `Create Application` and fill the `Name` and `Description` fields to create an application:
 
