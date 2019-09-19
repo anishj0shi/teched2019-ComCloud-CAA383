@@ -4,7 +4,7 @@ This hands-on session focuses on a "integrate with SAP Cloud Platform" scenario 
 
 ## Requirements
 
-This Sample code requires access to an [kyma instance](https://kyma-project.io/). In addition an [google cloud](https://cloud.google.com) and [azure](http://azure.microsoft.com) account is required.
+This Sample code requires access to an [kyma instance](https://kyma-project.io/). In addition, a [Google Cloud](https://cloud.google.com) and [Microsoft Azure](http://azure.microsoft.com) account is required.
 
 ## Step-by-Step Guide
 
