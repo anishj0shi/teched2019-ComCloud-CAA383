@@ -15,7 +15,7 @@ If not stated otherwise, all actions are done in  the `default` namespace.
 1. [Setup and connect Varkes](varkes/README.md)
 2. [Install Google Service Broker](gcpbroker/README.md)
 3. [Store Commerce Order on Google Cloud Storage](gcp/README.md)
-4. Setup Azure Service Broker
+4. [Setup Azure Service Broker](azurebroker/README.md)
 5. [Migrate Store Commerce Order to Microsoft Azure Storage](azure/README.md)
 
 Kyma is abstracting to some degree the cloud providers. Creating and cosuming (3rd party) services, running functions and deploying microservices are working the same way no matter which cloud provider is hosting the kyma system. This example should demonstrate, which components are still cloud provider specific and how to adjust them.
