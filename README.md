@@ -20,6 +20,14 @@ If not stated otherwise, all actions are done in  the `default` namespace.
 
 Kyma is abstracting to some degree the cloud providers. Creating and cosuming (3rd party) services, running functions and deploying microservices are working the same way no matter which cloud provider is hosting the kyma system. This example should demonstrate, which components are still cloud provider specific and how to adjust them.
 
+## Limitations
+
+Refer to sample project setup document for details.
+
+## Known Issues
+
+This sample is provided on "as-is" basis. Currently there are no know issues for this sample project.
+
 ## Resources
 
 Further resources for kyma:
@@ -33,7 +41,7 @@ Open SAP Course: [open.sap.com/courses/kyma1](https://open.sap.com/courses/kyma1
 
 ## How to obtain support
 
-For support please contanct your hands on session instructor or reach out in the public [Kyma Slack Channel](http://slack.kyma-project.io)
+This project is provided "as-is": there is no guarantee that raised issues will be answered or addressed in future releases. For more information, please visit the SAP community page or contact your SAP contact to obtain support. In case you observe any defect in the product usage itself , kindly use the SAP Product support channel and raise an incident adequately for the defects observed.
 
 ## License
 
