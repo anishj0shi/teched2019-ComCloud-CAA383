@@ -1,4 +1,4 @@
-# Hands-On Guide: CAA383 - Build Cloud-Native Extensions on Any Cloud Infrastructure
+# Hands-On Guide for SAP TechEd Hands-on Workshop CAA383 (Build Cloud-Native Extensions on Any Cloud Infrastructure)
 
 This hands-on session focuses on a "integrate with SAP Cloud Platform" scenario that let you develop and run extensions on any cloud infrastructure. Learn how to consume SAP Cloud Platform services and leverage the SAP Cloud Platform Extension Factory.
 
@@ -21,15 +21,12 @@ If not stated otherwise, all actions are done in  the `default` namespace.
 Kyma is abstracting to some degree the cloud providers. Creating and cosuming (3rd party) services, running functions and deploying microservices are working the same way no matter which cloud provider is hosting the kyma system. This example should demonstrate, which components are still cloud provider specific and how to adjust them.
 
 ## Limitations
-
 Refer to sample project setup document for details.
 
 ## Known Issues
-
-This sample is provided on "as-is" basis. Currently there are no know issues for this sample project.
+This sample is provided on "as-is" basis. Currently there are no known issues for this sample project.
 
 ## Resources
-
 Further resources for kyma:
 
 Twitter: [@kymaproject](https://twitter.com/kymaproject)  
@@ -40,11 +37,9 @@ Github: [github.com/kyma-project](http://github.com/kyma-project)
 Open SAP Course: [open.sap.com/courses/kyma1](https://open.sap.com/courses/kyma1)
 
 ## How to obtain support
+This project is provided "as-is"; there is no guarantee that raised issues will be answered or addressed in future releases. For more information, please visit SAP Community and [ask a question](https://answers.sap.com/questions/ask.html), or contact your SAP contact to obtain support. In case you observe any defect in the product usage itself, kindly use the SAP Product Support channel and raise an incident adequately for the defects observed.
 
-This project is provided "as-is": there is no guarantee that raised issues will be answered or addressed in future releases. For more information, please visit the SAP community page or contact your SAP contact to obtain support. In case you observe any defect in the product usage itself , kindly use the SAP Product support channel and raise an incident adequately for the defects observed.
 
 ## License
-
-Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.
-
-This file is licensed under the SAP Sample Code License except as noted otherwise in the [LICENSE](LICENSE) file .”
+Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved. 
+This file is licensed under the SAP Sample Code License except as noted otherwise in the [LICENSE](LICENSE) file.
