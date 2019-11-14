@@ -34,7 +34,7 @@ Now repeat the same steps for the `SAP Commerce Cloud - Commerce Webservices`:
 
 In the context of your namespace go to the catalog and navigate to "Services" and search for `Google Cloud Storage`:
 
-![GCP Service Catalog](../assets/CatalogGCP.png)
+![GCP Service Catalog](../assets/GCP&#32;Cloud&#32;Storage.png)
 
 Click on the tile and select `Add`:
 

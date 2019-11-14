@@ -13,7 +13,7 @@ In this example, we are creating first an Lambda function to store order informa
 If not stated otherwise, all actions are done in  the `default` namespace.
 
 1. [Setup and connect Varkes](varkes/README.md)
-2. [Install Google Service Broker](gcpbroker/README.md)
+2. [Create GCP Broker Service Instance](gcpbroker/README.md)
 3. [Store Commerce Order on Google Cloud Storage](gcp/README.md)
 4. [Setup Azure Service Broker](azurebroker/README.md)
 5. [Migrate Store Commerce Order to Microsoft Azure Storage](azure/README.md)
